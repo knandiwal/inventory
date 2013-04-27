@@ -1,0 +1,5 @@
+<ul style="width: 100%; background: url('assets/img/graffiti.png');">
+    {{#each storages}}
+        <li onClick="app.display('storage_view', 'right', {id: '{{name}}'});">{{name}}</li>
+    {{/each}}
+</ul>
